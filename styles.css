@@ -18,3 +18,7 @@ h1 {
     display: flex;
     justify-content: center;
 }
+#spell2 {
+    width: 60%;
+    height: 60%;
+}
