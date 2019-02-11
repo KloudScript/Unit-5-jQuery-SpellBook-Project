@@ -23,8 +23,16 @@ h1 {
     justify-content: center;
 }
 #spell2 {
-    width: 60%;
-    height: 60%;
+    width: 47%;
+    height: 47%;
+}
+#spell3 {
+    width: 47%;
+    height: 47%;
+}
+#spell4 {
+    padding: 10px;
+    border: 1px lightblue solid;
 }
 </style></head>
     <body>
@@ -48,7 +56,14 @@ h1 {
          <div class="spells">
                 <img id="spell2" src="https://media4.s-nbcnews.com/j/newscms/2018_29/2503096/180719-indonesia-volcano-mn-095_b8157839f3aa45919effa782a32a5d26.1200;630;7;70;5.jpg">
         </div>
-
+        <h1>Cashmereus Appearus</h1>
+        <div class="button">
+             <button id="spellbutton3">Spell</button>
+            </div>
+         <div class="spells">
+                <img id="spell3" src="http://exporockshow.com/wp-content/uploads/2018/09/empty-wallet-meme-1.jpg">
+        </div>
+        <h1 id="spell4">Click Logo To See The Cast! Click Me For Something Special!</h1>
     
 
 
@@ -74,10 +89,18 @@ $("#spellbutton2").click(function(){
 
 //Spell #3
 
-$("      ").click(function(){
- 
+$("#spellbutton3").click(function(){
+      $("#spell3").attr("src","https://dayair.org/wp-content/uploads/2017/04/money-wallet.jpg");
 });
 
+$("#logo").click(function(){
+      $("#logo").attr("src","https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/wizards-of-waverly-place-10th-anniversary-cast-pic-1507155805.jpg?crop=1.00xw:0.752xh;0,0&resize=480:*");
+});
+
+$("#spell4").click(function(){
+      $("#spell4").text("Thanks! I hope You Enjoyed My Spell Book!");
+      $("#spell4").css("color", "maroon");
+});
 
 
 </script></body></html>
