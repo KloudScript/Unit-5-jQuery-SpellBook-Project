@@ -19,6 +19,14 @@ h1 {
     justify-content: center;
 }
 #spell2 {
-    width: 60%;
-    height: 60%;
+    width: 47%;
+    height: 47%;
+}
+#spell3 {
+    width: 47%;
+    height: 47%;
+}
+#spell4 {
+    padding: 10px;
+    border: 1px lightblue solid;
 }
